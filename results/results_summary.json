@@ -1,0 +1,42 @@
+{
+  "E1: VanillaCNN": {
+    "test_acc": 0.8185,
+    "best_val_acc": 0.8214,
+    "params_M": 0.23
+  },
+  "E2: ResNet-18": {
+    "test_acc": 0.9386,
+    "best_val_acc": 0.9452,
+    "params_M": 11.17
+  },
+  "E3: ConvNeXt-V1": {
+    "test_acc": 0.7189,
+    "best_val_acc": 0.7242,
+    "params_M": 7.4
+  },
+  "E4: ConvNeXt-V2 (Full)": {
+    "test_acc": 0.7623,
+    "best_val_acc": 0.766,
+    "params_M": 7.4
+  },
+  "E5: V2 + LayerScale (no GRN)": {
+    "test_acc": 0.7366,
+    "best_val_acc": 0.741,
+    "params_M": 7.4
+  },
+  "E6: V2 - Stochastic Depth": {
+    "test_acc": 0.7705,
+    "best_val_acc": 0.7728,
+    "params_M": 7.4
+  },
+  "E7: V2 - GRN": {
+    "test_acc": 0.7315,
+    "best_val_acc": 0.743,
+    "params_M": 7.4
+  },
+  "E8: Pretrained ConvNeXtV2": {
+    "test_acc": 0.9756,
+    "best_val_acc": 0.9756,
+    "params_M": 28.0
+  }
+}
