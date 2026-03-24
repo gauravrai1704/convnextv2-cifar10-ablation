@@ -77,7 +77,5 @@ Ran in Google Colab with T4 GPU.
   year={2023}
 }
 ```
-```
 
----
 
